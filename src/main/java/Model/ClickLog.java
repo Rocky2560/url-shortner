@@ -23,4 +23,5 @@ public class ClickLog {
     private String shortCode;
     private String ipAddress;
     private LocalTime clickedAt;
+
 }
