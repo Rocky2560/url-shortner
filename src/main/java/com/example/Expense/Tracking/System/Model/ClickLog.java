@@ -1,4 +1,4 @@
-package Model;
+package com.example.Expense.Tracking.System.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

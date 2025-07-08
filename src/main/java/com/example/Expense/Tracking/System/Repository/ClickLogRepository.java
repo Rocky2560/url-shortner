@@ -1,6 +1,6 @@
-package Repository;
+package com.example.Expense.Tracking.System.Repository;
 
-import Model.ClickLog;
+import com.example.Expense.Tracking.System.Model.ClickLog;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

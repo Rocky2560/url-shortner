@@ -1,9 +1,8 @@
-package Service;
+package com.example.Expense.Tracking.System.Service;
 
-import Model.UrlMapping;
-import Repository.UrlRepository;
+import com.example.Expense.Tracking.System.Model.UrlMapping;
+import com.example.Expense.Tracking.System.Repository.UrlRepository;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

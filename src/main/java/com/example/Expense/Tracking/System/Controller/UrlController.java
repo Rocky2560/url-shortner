@@ -1,8 +1,8 @@
-package Controller;
+package com.example.Expense.Tracking.System.Controller;
 
-import Model.ClickLog;
-import Service.AnalyticsService;
-import Service.UrlService;
+import com.example.Expense.Tracking.System.Model.ClickLog;
+import com.example.Expense.Tracking.System.Service.AnalyticsService;
+import com.example.Expense.Tracking.System.Service.UrlService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -22,7 +22,7 @@ public class UrlController {
     @PostMapping("/shorten")
     public ResponseEntity<String> shorten(@RequestParam String longUrl) {
         String shortCode = urlService.shortenUrl(longUrl);
-        return ResponseEntity.ok("http://localhost:8080/api/" + shortCode);
+        return ResponseEntity.ok("http://localhost:8082/api/" + shortCode);
     }
 
     @GetMapping("/{shortCode}")

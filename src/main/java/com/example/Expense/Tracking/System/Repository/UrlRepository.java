@@ -1,8 +1,7 @@
-package Repository;
+package com.example.Expense.Tracking.System.Repository;
 
-import Model.UrlMapping;
+import com.example.Expense.Tracking.System.Model.UrlMapping;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 
 public interface UrlRepository extends JpaRepository<UrlMapping , String> {

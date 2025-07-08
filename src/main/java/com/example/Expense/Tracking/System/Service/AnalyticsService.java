@@ -1,11 +1,10 @@
-package Service;
+package com.example.Expense.Tracking.System.Service;
 
-import Model.ClickLog;
-import Repository.ClickLogRepository;
+import com.example.Expense.Tracking.System.Model.ClickLog;
+import com.example.Expense.Tracking.System.Repository.ClickLogRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.List;
 
